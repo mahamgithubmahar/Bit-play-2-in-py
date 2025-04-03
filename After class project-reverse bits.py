@@ -8,6 +8,6 @@ def reverse_bits(n):
     
     return reversed
 
-n = int(input("Enter a decimal number: "))
+n = int(input("Enter a number: "))
 reversed_number = reverse_bits(n)
 print("Reversed number:", reversed_number)
